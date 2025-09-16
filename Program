@@ -64,3 +64,32 @@ public class MultilevelInheritance {                                            
         p.weep();  // Puppy’s own
     }
 }*/
+
+/*Question 4:-Program of Hierarchical Inheritance in Java.
+
+class Animal {
+    void eat() {
+        System.out.println("Animal is eating...");
+    }
+}
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog is barking...");
+    }
+}
+class Cat extends Animal {
+    void meow() {
+        System.out.println("Cat is meowing...");
+    }
+}
+public class HierarchicalInheritance {                                              Class name : "HierarchicalInheritance.java"
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+
+        Cat c = new Cat();
+        c.eat();
+        c.meow();
+    }
+}*/
